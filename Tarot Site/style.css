@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family:"outfit";
+    font-size: 20px;
+    line-height: 24px;
+    background-color: rgb(35, 35, 35);
+  }
+  h2 {
+    color: rgb(255, 250, 241);
+
+  }
+  
+  header, main {
+    width: 80%;
+    margin: 40px auto;
+  }
+
+  .button {
+    background-color: blueviolet;
+    
+  }
+  
+  
+img {
+    width: 70%
+}
+
+.cards {
+    padding-top: 1in;
+    padding-left: .5in;
+    padding-right: .5in;
+   display: flex;
+   flex: row;
+ 
+  }
+  
+  
