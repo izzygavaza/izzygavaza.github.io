@@ -1,0 +1,35 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #FFF1E1;
+  }
+  img{
+    width: 15%;
+  }
+
+  
+  .topnav a {
+    float: left;
+    color: #1E1E1E;
+    text-align: start;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav a:hover {
+    color: #1E1E1E;
+  }
+  
+  .topnav a.active {
+    color: #D63D25;
+  }
+
+  .about {
+    background-color: #FFF1E1;
+  }
+main {
+    background-color: #FFF1E1;
+    padding: 10px;
+} 
