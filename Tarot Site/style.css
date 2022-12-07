@@ -1,39 +1,56 @@
-* {
-    box-sizing: border-box;
-  }
-  body {
-    font-family:"outfit";
-    font-size: 20px;
-    line-height: 24px;
-    background-color: rgb(35, 35, 35);
-  }
-  h2 {
-    color: rgb(255, 250, 241);
-
-  }
-  
-  header, main {
-    width: 80%;
-    margin: 40px auto;
-  }
-
-  .button {
-    background-color: blueviolet;
-    
-  }
-  
-  
-img {
-    width: 70%
+*:root {
+  --supernova: #FFFEF0;
+  --beam-red: #FF3D48;
+  --planet-purple: #924CD8; 
+  --et-green: #A3FFBC;
+  --starship: #5869FF;
+  --universe: #1E1E1E;
 }
 
-.cards {
-    padding-top: 1in;
-    padding-left: .5in;
-    padding-right: .5in;
-   display: flex;
-   flex: row;
- 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  background: var(--universe);
+}
+  h1 {
+    color: var(--supernova);
+    text-align: center;
+    font-weight: 100;
   }
+  .text-primary {
+    color: var(--supernova);
+}
+  .form-control {
+    background: var(--universe);
+}
+
+.btn-primary {
+  color: var(--supernova);
+  background-color: var(--universe);
+  border-color: var(--universe);
+}
+
+.btn-primary:hover {
+  color: var(--planet-purple);
+  background-color: var(--universe);
+  border-color: var(--universe);
+}
+
+  .card-bg {
+    background: var(--primary);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+
+
+  
+
   
   
